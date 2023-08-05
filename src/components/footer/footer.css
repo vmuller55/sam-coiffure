@@ -1,0 +1,6 @@
+footer{
+    background-color: #494844;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}

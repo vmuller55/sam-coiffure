@@ -1,0 +1,54 @@
+.costContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.coupeList{
+    list-style-type: none;
+    padding: 0px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    width: fit-content;
+}
+
+.barbeList{
+    list-style-type: none;
+    padding: 0px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    width: fit-content;
+}
+
+.costContainer h2{
+    margin: 0;
+}
+
+.costContainer h3{
+    margin: 30px 0px;
+}
+
+.coupe{
+    padding: 10px 50px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px 5px #494844;
+}
+
+.barbe{
+    padding: 10px 50px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px 5px #494844;
+}
+
+.tarifCategorie{
+    padding-bottom: 50px;
+}

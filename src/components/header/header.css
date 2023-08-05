@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    transition: opacity 0.5s ease-in-out;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #494844;
+    height: 100px;
+    justify-content: center;
+    width: 100%;
+    color: #f3f1e4;
+    z-index: 1000;
+}
+
+h1{
+    margin: 0;
+    align-self: center;
+}
