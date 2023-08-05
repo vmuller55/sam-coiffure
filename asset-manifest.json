@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.020ff6eb.css",
-    "main.js": "/react-gh-pages/static/js/main.112a35b2.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.020ff6eb.css.map": "/react-gh-pages/static/css/main.020ff6eb.css.map",
-    "main.112a35b2.js.map": "/react-gh-pages/static/js/main.112a35b2.js.map"
+    "main.css": "/vmuller55/sam-coiffure/static/css/main.020ff6eb.css",
+    "main.js": "/vmuller55/sam-coiffure/static/js/main.ce57e817.js",
+    "index.html": "/vmuller55/sam-coiffure/index.html",
+    "main.020ff6eb.css.map": "/vmuller55/sam-coiffure/static/css/main.020ff6eb.css.map",
+    "main.ce57e817.js.map": "/vmuller55/sam-coiffure/static/js/main.ce57e817.js.map"
   },
   "entrypoints": [
     "static/css/main.020ff6eb.css",
-    "static/js/main.112a35b2.js"
+    "static/js/main.ce57e817.js"
   ]
 }
