@@ -5,6 +5,7 @@
     text-align: center;
     flex-direction: column;
     width: 100%;
+    font-size: 24px;
 }
 
 .coupeList{
@@ -13,9 +14,10 @@
     margin: auto;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 30px;
     width: fit-content;
+    font-weight: 800;
 }
 
 .barbeList{
@@ -24,9 +26,10 @@
     margin: auto;
     display: flex;
     justify-content: center;
-    flex-direction: column;
     gap: 30px;
     width: fit-content;
+    font-weight: 800;
+    flex-wrap: wrap;
 }
 
 .costContainer h2{
@@ -41,14 +44,22 @@
     padding: 10px 50px;
     border-radius: 15px;
     box-shadow: 0px 5px 10px 5px #494844;
+    min-width: 170px;
 }
 
 .barbe{
     padding: 10px 50px;
     border-radius: 15px;
     box-shadow: 0px 5px 10px 5px #494844;
+    min-width: 170px;
 }
 
 .tarifCategorie{
     padding-bottom: 50px;
+}
+
+@media only screen and (max-width : 800px) {
+    .costContainer{
+        font-size: 18px;
+    }    
 }

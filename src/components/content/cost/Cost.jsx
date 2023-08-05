@@ -18,7 +18,7 @@ const Cost = () => {
                     <h3>Barbe</h3>
                     <ul className="barbeList">
                         <li className="barbe">Barbe<br/>7€</li>
-                        <li className="barbe">Traçage de barbe<br/>5€</li>
+                        <li className="barbe">Traçage barbe<br/>5€</li>
                     </ul>
                 </div>
             </div>

@@ -8,8 +8,8 @@
     padding-bottom: 30px;
 }
 
-.adressContainer h2{
-    font-size: 20px;
+.adressContainer h2, h3{
+    font-size: 28px;
 }
 
 .adress a{
@@ -32,4 +32,10 @@
     padding: 10px 50px;
     cursor: pointer;
     box-shadow: 5px 5px 10px 5px #494844;
+}
+
+@media only screen and (max-width : 800px){
+    .adressContainer h2, h3{
+        font-size: 20px;
+    }
 }
