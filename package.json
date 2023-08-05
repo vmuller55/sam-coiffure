@@ -2,7 +2,7 @@
   "name": "coifsam",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vmuller55.github.io/sam-coiffure",
+  "homepage": "https://vmuller55.github.io/coifsam",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
