@@ -19,8 +19,8 @@ const Header = () => {
   }, [prevScrollPos]);
 
   return (
-    <header style={{ opacity: visible ? 1 : 0 }}>
-      <h1>Coiff Sam</h1>
+    <header style={{ opacity: visible ? 1 : 0}}>
+      <h1>COIFF SAM</h1>
     </header>
   );
 };

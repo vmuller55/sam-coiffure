@@ -1,0 +1,11 @@
+.planity a{
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: #3C6E71;
+    padding: 10px 50px;
+    cursor: pointer;
+    color: #f3f1e4;
+    font-size: 24px;
+    font-weight: 400;
+}

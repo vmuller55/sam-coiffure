@@ -1,4 +1,5 @@
 import './adress.css'
+import PlanityButton from '../planityButton/planityButton';
 import {BiPhone} from 'react-icons/bi'
 import {FiMapPin} from 'react-icons/fi'
 
@@ -15,9 +16,7 @@ const Adress = () => {
                 </h2>
                 <h3><BiPhone /> 09 53 64 43 72</h3>
             </div>
-            <div className="planity">
-                <a href='https://www.planity.com/coiff-sam-bar-le-duc-55000'>Prendre RDV</a>
-            </div>
+            <PlanityButton/>
             <div className="social">
                 <h2>Mes réseaux : </h2>
                 <SocialIcon url='https://www.instagram.com/sam.coiffeur.55/' style={{marginRight : "30px"}}></SocialIcon>

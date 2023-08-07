@@ -23,6 +23,7 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    border-radius: 25px;
   }
   
   .slider-container img {
@@ -40,7 +41,6 @@
     border: none;
     color: black;
     padding: 5px 10px;
-    border-radius: 5px;
     transition: background-color 0.3s ease;
   }
   
