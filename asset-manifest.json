@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sam-coiffure/static/css/main.020ff6eb.css",
+    "main.js": "/sam-coiffure/static/js/main.4f36d8ae.js",
+    "index.html": "/sam-coiffure/index.html",
+    "main.020ff6eb.css.map": "/sam-coiffure/static/css/main.020ff6eb.css.map",
+    "main.4f36d8ae.js.map": "/sam-coiffure/static/js/main.4f36d8ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.020ff6eb.css",
+    "static/js/main.4f36d8ae.js"
+  ]
+}
