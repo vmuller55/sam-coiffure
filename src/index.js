@@ -15,7 +15,7 @@ import "./index.css"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='sam-coiffure'>
       <Routes>
         <Route path='/' index element={<Home/>}/>
         <Route path='/mention' element={<Mention/>} />
