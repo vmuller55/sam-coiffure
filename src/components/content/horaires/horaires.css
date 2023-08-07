@@ -32,11 +32,6 @@
     min-width: 170px;
 }
 
-.day:hover {
-    background-color: #494844;
-    color: #f3f1e4;
-}
-
 @media only screen and (max-width : 800px){
     .day{
         font-size: 18px;

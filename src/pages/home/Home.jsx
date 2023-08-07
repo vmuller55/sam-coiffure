@@ -19,7 +19,6 @@ const Home = () => {
         <div className="homeContainer">
             <Header />
             <div className="photo-gallery">
-                <h2>Photo Gallery</h2>
                 <ImageSlider images={images} />
             </div>
             <Adress />
