@@ -37,7 +37,7 @@ const Home = () => {
 
   let breakpoint;
   if (screenWidth >= 900) {
-    breakpoint = 500;
+    breakpoint = 200;
   } else {
     breakpoint = 1200; // Adjust the factor as needed
   }
@@ -51,7 +51,7 @@ const Home = () => {
             <Adress />
             <DescendingArrow/>
             <div className="contentWrapper">
-                <AppearingComponent breakpoint={500} direction={"left"} content={<Horaires/>}/>
+                <AppearingComponent breakpoint={200} direction={"left"} content={<Horaires/>}/>
                 <AppearingComponent breakpoint={breakpoint} direction={"right"} content={<Cost/>}/>
             </div>
             <PlanityButton/>
