@@ -1,3 +1,4 @@
+import { useEffect, useState} from 'react'
 import Header from "../../components/header/Header"
 import Adress from "../../components/infos/Adress"
 import AppearingComponent from "../../components/sideEffect/sideEffect"
@@ -5,6 +6,7 @@ import Horaires from "../../components/content/horaires/Horaires"
 import Cost from "../../components/content/cost/Cost"
 import Footer from "../../components/footer/Footer"
 import ImageSlider from "../../components/gallery/Gallery"
+import PlanityButton from "../../components/planityButton/planityButton"
 
 import './home.css'
 
@@ -15,6 +17,29 @@ const Home = () => {
         '/images/salon.webp',
     ];
 
+    const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+
+  useEffect(() => {
+    const handleResize = () => {
+      setScreenWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  let breakpoint;
+  if (screenWidth >= 900) {
+    breakpoint = 300;
+  } else {
+    breakpoint = 900; // Adjust the factor as needed
+  }
+
     return(
         <div className="homeContainer">
             <Header />
@@ -22,8 +47,11 @@ const Home = () => {
                 <ImageSlider images={images} />
             </div>
             <Adress />
-            <AppearingComponent breakpoint={200} direction={"left"} content={<Horaires/>}/>
-            <AppearingComponent breakpoint={800} direction={"right"} content={<Cost/>}/>
+            <div className="contentWrapper">
+                <AppearingComponent breakpoint={300} direction={"left"} content={<Horaires/>}/>
+                <AppearingComponent breakpoint={breakpoint} direction={"right"} content={<Cost/>}/>
+            </div>
+            <PlanityButton/>
             <Footer/>
         </div>
         

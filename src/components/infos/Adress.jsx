@@ -18,7 +18,7 @@ const Adress = () => {
             </div>
             <PlanityButton/>
             <div className="social">
-                <h2>Mes réseaux : </h2>
+                <h2>Réseaux : </h2>
                 <SocialIcon url='https://www.instagram.com/sam.coiffeur.55/' style={{marginRight : "30px"}}></SocialIcon>
                 <SocialIcon url='https://www.facebook.com/profile.php?id=100063521532125'></SocialIcon>
             </div>

@@ -1,9 +1,9 @@
 import './cost.css'
-import PlanityButton from '../../planityButton/planityButton'
+
 const Cost = () => {
     return(
         <div className="costContainer">
-            <h2>Mes tarifs</h2>
+            <h2>Tarifs</h2>
             <div className="tarifCategorie">
                 <div className="coupeContainer">
                     <h3>COUPES</h3>
@@ -22,7 +22,6 @@ const Cost = () => {
                     </ul>
                 </div>
             </div>
-            <PlanityButton/>
         </div>
     )
 }

@@ -3,7 +3,7 @@ import './horaires.css'
 const Horaires = () => {
     return(
         <div className="horairesContainer">
-            <h2>Mes horaires</h2>
+            <h2>Horaires</h2>
             <div className="horraires">
                 <ul className='week'>
                     <li className="day">Lundi<br/> 14H00 - 19H00</li>
