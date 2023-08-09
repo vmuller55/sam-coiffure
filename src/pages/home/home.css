@@ -65,6 +65,7 @@
     margin-top: 30px;
   }
 
+
   @media only screen and (max-width : 800px ){
     .slider-container img {
         height: 250px;
@@ -74,6 +75,7 @@
   @media only screen and (min-width : 900px ){
     .contentWrapper{
       display: flex;
-      justify-content: space-around;
+      justify-content: center;
+      column-gap: 100px;
     }
   }

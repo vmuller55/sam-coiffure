@@ -7,6 +7,7 @@ import Cost from "../../components/content/cost/Cost"
 import Footer from "../../components/footer/Footer"
 import ImageSlider from "../../components/gallery/Gallery"
 import PlanityButton from "../../components/planityButton/planityButton"
+import DescendingArrow from '../../components/infoArrow/infoArrow'
 
 import './home.css'
 
@@ -18,6 +19,7 @@ const Home = () => {
     ];
 
     const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  
 
 
   useEffect(() => {
@@ -35,9 +37,9 @@ const Home = () => {
 
   let breakpoint;
   if (screenWidth >= 900) {
-    breakpoint = 300;
+    breakpoint = 500;
   } else {
-    breakpoint = 900; // Adjust the factor as needed
+    breakpoint = 1200; // Adjust the factor as needed
   }
 
     return(
@@ -47,8 +49,9 @@ const Home = () => {
                 <ImageSlider images={images} />
             </div>
             <Adress />
+            <DescendingArrow/>
             <div className="contentWrapper">
-                <AppearingComponent breakpoint={300} direction={"left"} content={<Horaires/>}/>
+                <AppearingComponent breakpoint={500} direction={"left"} content={<Horaires/>}/>
                 <AppearingComponent breakpoint={breakpoint} direction={"right"} content={<Cost/>}/>
             </div>
             <PlanityButton/>

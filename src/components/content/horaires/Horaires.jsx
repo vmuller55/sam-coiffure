@@ -6,13 +6,13 @@ const Horaires = () => {
             <h2>Horaires</h2>
             <div className="horraires">
                 <ul className='week'>
-                    <li className="day">Lundi<br/> 14H00 - 19H00</li>
-                    <li className="day">Mardi<br/> 10H00 - 19H00</li>
-                    <li className="day">Mercredi<br/> 10H00 - 19H00</li>
-                    <li className="day">Jeudi<br/> 10H00 - 19H00</li>
-                    <li className="day">Vendredi<br/> 10H00 - 19H00</li>
-                    <li className="day">Samedi<br/> 10H00 - 19H00</li>
-                    <li className="day">Dimanche<br/> Fermé</li>
+                    <li className="day">Lundi<br/> <span className='fontHours'>14H00 - 19H00</span></li>
+                    <li className="day">Mardi<br/> <span className='fontHours'>10H00 - 19H00</span></li>
+                    <li className="day">Mercredi<br/> <span className='fontHours'>10H00 - 19H00</span></li>
+                    <li className="day">Jeudi<br/> <span className='fontHours'>10H00 - 19H00</span></li>
+                    <li className="day">Vendredi<br/> <span className='fontHours'>10H00 - 19H00</span></li>
+                    <li className="day">Samedi<br/> <span className='fontHours'>10H00 - 19H00</span></li>
+                    <li className="day">Dimanche<br/> <span className='fontHours'>Fermé</span></li>
                 </ul>
             </div>
         </div>

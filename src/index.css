@@ -12,3 +12,8 @@ code {
     monospace;
 }
 
+html {
+  --main : rgb(53, 53, 53);
+  --secondary : rgb(217, 217, 217)
+}
+

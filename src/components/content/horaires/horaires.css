@@ -5,10 +5,11 @@
     flex-direction: column;
     padding-bottom: 30px;
     text-align: center;
+    height: 1010px;
 }
 
 .week{
-    margin: 30px auto;
+    margin:  auto;
     padding: 0;
     list-style-type: none;
     display: flex;
@@ -17,26 +18,33 @@
     justify-content: center;
     width: fit-content;
     text-align: center;
+    height: 904px;
 }
 
 .horairesContainer h2{
-    background-color: #3C6E71;
+    background-color: var(--main);
     border-radius: 25px;
     width: fit-content;
     margin: auto;
     padding: 0px 50px;
-    color: #f3f1e4;
+    color: var(--secondary);
     font-size: 24px;
     font-weight: 400;
 }
 
 .day{
     padding: 10px 50px;
-    border-top: 2px solid #3C6E71;
+    border-top: 2px solid var(--main);
     font-size: 24px;
     font-weight: 800;
     min-width: 170px;
 }
+
+.fontHours{
+    font-weight: 400;
+}
+
+
 
 @media only screen and (max-width : 800px){
     .day{
@@ -67,6 +75,10 @@
     .horairesContainer h2{
         margin-top: 30px;
         font-size: 32px;
+    }
+
+    .week :nth-child(1){
+        margin-top: 20px;
     }
 
 }

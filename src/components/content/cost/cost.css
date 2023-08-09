@@ -6,7 +6,6 @@
     flex-direction: column;
     width: 100%;
     font-size: 24px;
-    
 }
 
 .coupeList, .barbeList{
@@ -22,12 +21,12 @@
 }
 
 .costContainer h2{
-    background-color: #3C6E71;
+    background-color: var(--main);
     border-radius: 25px;
     width: fit-content;
     margin: auto;
     padding: 0px 50px;
-    color: #f3f1e4;
+    color: var(--secondary);
     font-size: 24px;
     font-weight: 400;
 }
@@ -39,7 +38,7 @@
 
 .coupe, .barbe{
     padding: 10px 50px;
-    border-top: 2px solid #3C6E71;
+    border-top: 2px solid var(--main);
     min-width: 170px;
 }
 
@@ -75,6 +74,10 @@
         flex-direction: column;
     }
 
+    .coupeContainer{
+        margin-bottom: 50px;
+    }
+
     .coupeContainer, .barbeContainer {
         background: rgba(225, 229, 242, 0.18);
         border-radius: 16px;
@@ -82,7 +85,6 @@
         backdrop-filter: blur(1.6px);
         -webkit-backdrop-filter: blur(1.6px);
         border: 1px solid rgba(225, 229, 242, 0.34);
-        margin-bottom: 50px;
     }
 
     .barbe, .coupe{

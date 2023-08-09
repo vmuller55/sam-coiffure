@@ -8,9 +8,10 @@ header {
     height: 100px;
     justify-content: center;
     width: 100%;
-    color: white;
+    color: var(--secondary);
     z-index: 1000;
-    background-color: rgba(60, 110, 113, 0.9);
+    background-color: var(--main);
+    
 }
 
 h1{
