@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/sam-coiffure/static/css/main.c9914df6.css",
-    "main.js": "/sam-coiffure/static/js/main.87cbf78f.js",
+    "main.css": "/sam-coiffure/static/css/main.a3d4a8b4.css",
+    "main.js": "/sam-coiffure/static/js/main.afb948d1.js",
     "index.html": "/sam-coiffure/index.html",
-    "main.c9914df6.css.map": "/sam-coiffure/static/css/main.c9914df6.css.map",
-    "main.87cbf78f.js.map": "/sam-coiffure/static/js/main.87cbf78f.js.map"
+    "main.a3d4a8b4.css.map": "/sam-coiffure/static/css/main.a3d4a8b4.css.map",
+    "main.afb948d1.js.map": "/sam-coiffure/static/js/main.afb948d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9914df6.css",
-    "static/js/main.87cbf78f.js"
+    "static/css/main.a3d4a8b4.css",
+    "static/js/main.afb948d1.js"
   ]
 }
