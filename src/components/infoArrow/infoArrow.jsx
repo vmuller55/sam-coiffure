@@ -8,7 +8,7 @@ const DescendingArrow = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      const threshold = 200; // Set a suitable threshold
+      const threshold = 30; // Set a suitable threshold
       const progress = Math.min(1, scrollPosition / threshold);
 
       setIsVisible(scrollPosition <= threshold);
@@ -53,6 +53,7 @@ const DescendingArrow = () => {
             strokeDasharray: '100',
             strokeDashoffset: `${scrollProgress * 100}`,
             transition: 'stroke-dashoffset 0.5s ease, opacity 0.5s ease',
+            animation: 'turnOn 3s ease-in-out infinite', // Adding the animation
           }}
         />
       </svg>

@@ -49,7 +49,16 @@ const Home = () => {
                 <ImageSlider images={images} />
             </div>
             <Adress />
-            <DescendingArrow/>
+            {screenWidth < 800 
+              ? 
+                (
+                  <DescendingArrow/>
+                )
+              :
+                (
+                  ''
+                )
+            }
             <div className="contentWrapper">
                 <AppearingComponent breakpoint={200} direction={"left"} content={<Horaires/>}/>
                 <AppearingComponent breakpoint={breakpoint} direction={"right"} content={<Cost/>}/>
